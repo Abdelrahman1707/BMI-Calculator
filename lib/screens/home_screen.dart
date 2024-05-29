@@ -16,7 +16,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int? currentIndexWeight;
   int age = 20;
-  double? currentIndexHeight;
+  double currentIndexHeight=125;
 
   @override
   Widget build(BuildContext context) {
